@@ -4,7 +4,7 @@
   "scripts": {
     "rollup": "rimraf lib && node --max-old-space-size=8192 node_modules/rollup/dist/bin/rollup -c",
     "start": "react-app-rewired start",
-    "build": "react-app-rewired --max_old_space_size=4096 build"
+    "build": "react-app-rewired build"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
